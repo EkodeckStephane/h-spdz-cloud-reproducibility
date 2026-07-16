@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated publication and this archived reproducibility package."
+title: "H-SPDZ-Cloud Reproducibility Package"
+version: "0.1.0"
+date-released: "2026-07-16"
+authors:
+  - family-names: "EKODECK"
+    given-names: "Stephane Gael R."
+license: "MIT"
+repository-code: "https://github.com/EkodeckStephane/h-spdz-cloud-reproducibility"
+keywords:
+  - secure multi-party computation
+  - SPDZ
+  - Edge-Fog-Cloud
+  - reproducibility
+  - authenticated transport

@@ -1,0 +1,3 @@
+target,rtt_mean_ms,rtt_p95_ms,rtt_stdev_ms,tls_handshake_mean_ms,loss
+Edge worker,2.437,4.616,0.970,17.651,0/30
+Fog worker,6.750,12.449,3.360,24.738,0/30

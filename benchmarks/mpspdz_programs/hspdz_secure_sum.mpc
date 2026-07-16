@@ -1,0 +1,10 @@
+"""Reference secure-sum workload for H-SPDZ-Cloud comparison."""
+
+n_inputs = 8
+values = Array(n_inputs, sint)
+
+for i in range(n_inputs):
+    values[i] = sint.get_input_from(i % 2)
+
+result = sum(values)
+print_ln("secure_sum_result=%s", result.reveal())

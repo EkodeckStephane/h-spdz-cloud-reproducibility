@@ -1,0 +1,13 @@
+"""Small private dot-product workload for H-SPDZ-Cloud comparison."""
+
+dimension = 8
+x = Array(dimension, sint)
+w = Array(dimension, sint)
+
+@for_range(dimension)
+def _(i):
+    x[i] = sint.get_input_from(0)
+    w[i] = sint.get_input_from(1)
+
+score = sum(x[i] * w[i] for i in range(dimension))
+print_ln("ml_dot_product_result=%s", score.reveal())

@@ -1,0 +1,2 @@
+dataset,samples_total,features,train_samples,test_samples,secured_test_samples,scale,plaintext_accuracy,quantized_accuracy,secured_accuracy,secure_quantized_agreement,score_match_rate,mean_latency_ms,mean_communication_kb,total_elapsed_ms
+Wisconsin Diagnostic Breast Cancer,569,30,398,171,30,1000,0.9883040935672515,0.9883040935672515,0.9666666666666667,1.0,1.0,690.1635299960617,3.4375,20991.12660001265

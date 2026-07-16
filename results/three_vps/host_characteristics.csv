@@ -1,0 +1,4 @@
+role,os,python_environment,vcpu,ram,cpu_model
+Edge worker,Oracle Linux Server 8.10,Python 3.11.13 virtual environment,8,23 GiB,AMD EPYC Processor (with IBPB)
+Fog worker,Ubuntu 24.04.4 LTS,Python 3.12.3 virtual environment,8,23 GiB,AMD EPYC Processor (with IBPB)
+Cloud controller,Ubuntu 24.04.4 LTS,Python 3.12.3 virtual environment,4,7.8 GiB,AMD EPYC Processor (with IBPB)

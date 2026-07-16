@@ -1,0 +1,12 @@
+"""Reference multiplication-chain workload for H-SPDZ-Cloud comparison."""
+
+depth = 32
+x = sint.get_input_from(0)
+y = sint.get_input_from(1)
+acc = MemValue(x)
+
+@for_range(depth)
+def _(i):
+    acc.write(acc.read() * y + sint(i + 1))
+
+print_ln("multiplication_chain_result=%s", acc.read().reveal())

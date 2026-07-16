@@ -1,0 +1,4 @@
+metric,flat,hspdz,unit
+Online latency,100.0,37554.81341464638,normalized
+Online comm.,100.0,68.57142857142857,normalized
+Total comm.,100.0,57.64705882352941,normalized
